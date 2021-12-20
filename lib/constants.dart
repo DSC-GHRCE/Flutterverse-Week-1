@@ -1,37 +1,48 @@
-const productList = [
+const category = ["Pizza", "Food", "Drink", "Tea", "Coffee"];
+
+const pizzas = [
   {
-    "name": "Nothing One",
-    "price": "Rs 4999",
-    "companyName": "Nothing",
-    "imagePath": "assets/image/nothingEarImage.png",
-    "deliveryTime": "2 Days"
+    "img": "assets/farmhouse.jpg",
+    "name1": "Farm",
+    "name2": "House",
+    "price": "\$52",
   },
   {
-    "name": "Echo dot 3",
-    "price": "Rs 5999",
-    "companyName": "Amazon",
-    "imagePath": "assets/image/alexaImage.png",
-    "deliveryTime": "1 Days"
+    "img": "assets/peppy_paneer.jpg",
+    "name1": "Peppy",
+    "name2": "Paneer",
+    "price": "\$60",
   },
   {
-    "name": "Sony Headphone",
-    "price": "Rs 12999",
-    "companyName": "Sony",
-    "imagePath": "assets/image/headphoneImage.png",
-    "deliveryTime": "3 Days"
+    "img": "assets/deluxe_veggie.jpg",
+    "name1": "Deluxe",
+    "name2": "Veggie",
+    "price": "\$72",
   },
   {
-    "name": "Master mx 3",
-    "price": "Rs 7999",
-    "companyName": "Logitech",
-    "imagePath": "assets/image/mouseImage.png",
-    "deliveryTime": "4 Days"
+    "img": "assets/paneer_makhni.jpg",
+    "name1": "Paneer",
+    "name2": "Makhni",
+    "price": "\$82",
+  },
+];
+
+const chairs = [
+  {
+    "img": "assets/accent-chair.jpg",
+    "name": "Accent Chair",
+    "price": "\$100",
   },
   {
-    "name": "GigaByte Graphics Card",
-    "price": "Rs 59999",
-    "companyName": "GigaByte",
-    "imagePath": "assets/image/graphicsImage.png",
-    "deliveryTime": "2 Days"
+    "img": "assets/fauteuil-chair.jpg",
+    "name": "Fauteuil Chair",
+    "price": "\$150",
+  },
+  {
+    "img": "assets/rocking-chair.jpg",
+    "name": "Rocking Chair",
+    "price": "\$200",
   }
 ];
+
+const categories = ["Chair", "Table", "Sofa", "Cupboard", "Bed"];
