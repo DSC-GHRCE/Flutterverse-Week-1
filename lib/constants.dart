@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 const productList = [
   {
     "name": "Nothing One",
@@ -34,4 +36,22 @@ const productList = [
     "imagePath": "assets/image/graphicsImage.png",
     "deliveryTime": "2 Days"
   }
+];
+const advertise = [
+  {
+    "name": "30% OFF DURING",
+    "img": "assets/img1.png",
+  },
+  {
+    "name": "40% OFF DURING",
+    "img": "assets/img2.png",
+  },
+  {
+    "name": "50% OFF DURING",
+    "img": "assets/img1.png",
+  },
+  {
+    "name": "60% OFF DURING",
+    "img": "assets/img1.png",
+  },
 ];
